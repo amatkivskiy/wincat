@@ -102,7 +102,7 @@ while True:
         tagtype, tag, owner, message = match.groups()
 
         if filter_tags.__len__() > 0:
-            if not any(tag.strip() in user_tag for user_tag in filter_tags):
+            if not tag.strip() in filter_tags:
                 continue
         # linebuf = StringIO.StringIO()
 
