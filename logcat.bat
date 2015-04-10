@@ -1,0 +1,1 @@
+call E:\SDK\python27\python.exe coloredlogcat.py
